@@ -1,0 +1,59 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+project.version = "1.0.0"
+
+repositories { 
+	jcenter()
+}
+
+dependencies {
+	compile project(':esoco-gwt')
+    testCompile 'junit:junit:4.+'
+}
+
+eclipse {
+	jdt { 
+		sourceCompatibility = "1.7"
+		targetCompatibility = "1.7"
+	}
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'doc'
+    from javadoc.destinationDir
+}
+
+task fullJar(type: Jar) {
+    baseName = 'sdack'
+
+    manifest {
+        attributes 'Implementation-Title': 'SDACK - Simple Development Application Component Kit',  
+	        	   'Implementation-Version': project.version,
+	               'Built-Date': new Date(),
+                   'Built-JDK': System.getProperty('java.version')
+                   
+    }
+    // exclude files from GWT jar
+ 	exclude('com/**')
+ 	exclude('javax/**')
+ 	exclude('rhino_ast/**')
+ 	exclude('META-INF/maven/**')
+ 	// exclude hibernate which is only used for testing
+ 	exclude('org/hibernate/**')
+    
+	from { configurations.compile.collect 
+		{ it.isDirectory() ? it : zipTree(it) } 
+	}
+    with jar
+}
+
