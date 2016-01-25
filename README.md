@@ -8,7 +8,6 @@ This project is licensed under the [Apache 2.0 license]( http://www.apache.org/l
 
 The following illustration displays the current framework stack:
 
-![SDACK](esoco Framework Stack.svg)
 ![SDACK](esoco Framework Stack.png)
 
 One advantage of SDACK is that the depencies on additional external libraries is minimal. In fact there is only one mandatory library which is the open source GWT project. And even the access to that library is abstracted through the GEWT and Web Application Framework projects, thus making projects based on the frameworks widely independent from external APIs. All other external dependencies are related to the respective application environment, e.g. JDBC database drivers. The frameworks provide all functionality that is required for a typical application: persistence, visualization, logging, user interface, and more. And still the full framework stack is very compact regarding the number of API methods to learn as well as code size.
