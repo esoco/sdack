@@ -1,3 +1,5 @@
+rootProject.name = "sdack" 
+
 include ':esoco-common'
 include ':objectrelations'
 include ':esoco-lib'
@@ -5,6 +7,3 @@ include ':esoco-storage'
 include ':esoco-business'
 include ':gewt'
 include ':esoco-gwt'
-
-
-
