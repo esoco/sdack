@@ -1,17 +1,21 @@
 buildscript {
-    repositories {
-        jcenter()
-    }
-    dependencies {
-        classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6'
-    }
+    repositories { jcenter() }
+    dependencies { classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7' }
 }
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'maven'
+
+buildscript {
+    repositories { jcenter() }
+    dependencies { classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6' }
+}
+apply plugin: 'gwt-base'
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
 apply plugin: 'osgi'
 
-project.version = "1.0.0"
+project.group   = 'de.esoco'
+project.version = '1.0.0'
 
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
@@ -21,20 +25,14 @@ repositories {
 }
 
 dependencies {
-	compile project(':esoco-gwt')
-    testCompile 'junit:junit:4.+'
-}
-
-eclipse {
-	jdt { 
-		sourceCompatibility = "1.7"
-		targetCompatibility = "1.7"
+	if (project(':esoco-gwt').getProjectDir().exists()) {
+		compile project(':esoco-gwt')
 	}
-}
-
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'doc'
-    from javadoc.destinationDir
+	else {
+		compile 'de.esoco:esoco-gwt:1.+'
+	}
+	
+    testCompile 'junit:junit:4.+'
 }
 
 task fullJar(type: Jar) {
@@ -61,3 +59,36 @@ task fullJar(type: Jar) {
     with jar
 }
 
+task sourceJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourceJar
+    archives javadocJar
+}
+
+bintray {
+	user = project.hasProperty('bintrayUser') ? 
+				project.property('bintrayUser') : 
+				System.getenv('BINTRAY_USER')
+	key = project.hasProperty('bintrayApiKey') ? 
+				project.property('bintrayApiKey') : 
+				System.getenv('BINTRAY_API_KEY')
+    configurations = ['archives']
+    publish = true
+
+	pkg {
+		repo = 'sdack'
+		name = project.name
+		version {
+			name = project.version
+	    }
+    }
+}

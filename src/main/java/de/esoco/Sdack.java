@@ -14,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-package org.sdack;
+package de.esoco;
 
 import de.esoco.entity.Entity;
 import de.esoco.entity.EntityManager;
