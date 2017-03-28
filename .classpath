@@ -9,7 +9,7 @@
 	<classpathentry exported="true" kind="src" path="/objectrelations"/>
 	<classpathentry exported="true" kind="src" path="/esoco-common"/>
 	<classpathentry exported="true" kind="src" path="/gewt"/>
-	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/gwt-2.8.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

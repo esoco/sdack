@@ -27,6 +27,10 @@ dependencies {
     testCompile 'junit:junit:4.+'
 }
 
+gwt {
+    gwtVersion='2.8.0'
+}
+
 task fullJar(type: Jar) {
     baseName = 'sdack'
 
