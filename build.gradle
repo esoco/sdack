@@ -5,7 +5,6 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'osgi'
-apply plugin: 'gwt-base'
 apply plugin: 'eclipse'
 
 project.group   = 'de.esoco'
@@ -26,10 +25,6 @@ dependencies {
 	}
 
     testCompile 'junit:junit:4.+'
-}
-
-gwt {
-    gwtVersion='2.8.0'
 }
 
 task fullJar(type: Jar) {
