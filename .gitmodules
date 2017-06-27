@@ -1,28 +1,28 @@
 [submodule "esoco-common"]
 	path = esoco-common
-	url = https://github.com/esoco/esoco-common.git
+	url = ../esoco-common.git
 	branch = master
 [submodule "esoco-lib"]
 	path = esoco-lib
-	url = https://github.com/esoco/esoco-lib.git
+	url = ../esoco-lib.git
 	branch = master
 [submodule "esoco-business"]
 	path = esoco-business
-	url = https://github.com/esoco/esoco-business.git
+	url = ../esoco-business.git
 	branch = master
 [submodule "esoco-storage"]
 	path = esoco-storage
-	url = https://github.com/esoco/esoco-storage.git
+	url = ../esoco-storage.git
 	branch = master
 [submodule "esoco-gwt"]
 	path = esoco-gwt
-	url = https://github.com/esoco/esoco-gwt.git
+	url = ../esoco-gwt.git
 	branch = master
 [submodule "gewt"]
 	path = gewt
-	url = https://github.com/esoco/gewt.git
+	url = ../gewt.git
 	branch = master
 [submodule "objectrelations"]
 	path = objectrelations
-	url = https://github.com/esoco/objectrelations.git
+	url = ../objectrelations.git
 	branch = master
