@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="de.esoco.process.ui.component.DropDown" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/DropDown.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="277" x="3504" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="de.esoco.process.ui.component.MultiSelectionList" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/MultiSelectionList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="136" width="324" x="3821" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="de.esoco.process.ui.component.QueryTable" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/QueryTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="216" width="395" x="4495" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="de.esoco.process.ui.component.PushButtons" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/PushButtons.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="289" x="2926" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="de.esoco.process.ui.component.DataTable" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/DataTable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="216" width="395" x="4930" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="de.esoco.process.ui.component.Label" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/Label.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="236" x="881" y="234"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="de.esoco.process.ui.component.TextField" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/TextField.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="238" x="4530" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="de.esoco.process.ui.component.ToggleButtons" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/ToggleButtons.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="300" x="1811" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="de.esoco.process.ui.component.List" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/List.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="258" x="3206" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="de.esoco.process.ui.component.CheckBoxes" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/CheckBoxes.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="291" x="2151" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="de.esoco.process.ui.component.CheckBox" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/CheckBox.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="136" width="248" x="2470" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="de.esoco.process.ui.component.ComboBox" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/ComboBox.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="136" width="305" x="4185" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="de.esoco.process.ui.component.TextArea" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/TextArea.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="237" x="3908" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="de.esoco.process.ui.component.RadioButtons" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/component/RadioButtons.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="296" x="2590" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="de.esoco.process.ui.container.RootView" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/RootView.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="200" x="282" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="de.esoco.process.ui.container.Dialog" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/Dialog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="200" x="42" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="de.esoco.process.ui.container.StackPanel" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/StackPanel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="211" x="1098" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="de.esoco.process.ui.container.DeckPanel" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/DeckPanel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="208" x="850" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="de.esoco.process.ui.container.DockPanel" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/DockPanel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="288" x="522" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="de.esoco.process.ui.container.GridPanel" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/GridPanel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="201" x="1740" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="de.esoco.process.ui.container.Panel" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/Panel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="221" x="1157" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="de.esoco.process.ui.container.SplitPanel" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/SplitPanel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="282" x="1418" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="de.esoco.process.ui.container.TabPanel" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/container/TabPanel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="200" x="610" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="de.esoco.process.ui.SwitchPanel" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/SwitchPanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="267" x="850" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="de.esoco.process.ui.ButtonGroup" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/ButtonGroup.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="256" width="408" x="2758" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="de.esoco.process.ui.MultiSelectionButtonGroup" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/MultiSelectionButtonGroup.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="256" width="449" x="1981" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="de.esoco.process.ui.TextInputField" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/TextInputField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="270" x="4185" y="1106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="de.esoco.process.ui.InputField" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/InputField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="282" x="3940" y="930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="de.esoco.process.ui.Component" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/Component.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="339" x="1157" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="de.esoco.process.ui.TableControl" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/TableControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="289" x="4495" y="930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="de.esoco.process.ui.UiFragment" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/UiFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="157" width="267" x="3297" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="de.esoco.process.ui.Control" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/Control.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="308" x="3504" y="234"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="de.esoco.process.ui.ListControl" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/ListControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="396" x="3504" y="930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="de.esoco.process.ui.View" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/View.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="137" x="282" y="930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="de.esoco.process.ui.LayoutContainer" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/LayoutContainer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="295" x="1157" y="930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="de.esoco.process.ui.Container" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/Container.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="656" width="409" x="1157" y="234"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="de.esoco.process.ui.ButtonControl" project="esoco-business" 
+    file="/esoco-business/src/main/java/de/esoco/process/ui/ButtonControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="352" x="2678" y="930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="true" private="false" static="false"/>      
+      <operations public="true" package="false" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="33"/>  
+  </generalization>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="34"/>  
+  </generalization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="37"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="28"/>  
+  </generalization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="26"/>  
+  </generalization>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="35"/>  
+  </generalization>  
+  <association id="51">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="52" name="rComponents"/>      
+      <multiplicity id="53" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="34"/>  
+  </generalization>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="35"/>  
+  </generalization>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="33"/>  
+  </generalization>  
+  <generalization id="60">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="33"/>  
+  </generalization>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="62">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="36"/>  
+  </generalization>  
+  <generalization id="64">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="35"/>  
+  </generalization>  
+  <generalization id="66">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="37"/>  
+  </generalization>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="69">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="70">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="32"/>  
+  </generalization>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <generalization id="72">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="35"/>  
+  </generalization>  
+  <generalization id="73">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="37"/>  
+  </generalization>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <generalization id="75">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="35"/>  
+  </generalization>  
+  <association id="76">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="77" name="rParent"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="false" protected="true" private="false" static="false"/>    
+    <operations public="true" package="false" protected="true" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
