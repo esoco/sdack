@@ -20,7 +20,7 @@ dependencies {
 		compile project(':esoco-gwt')
 	}
 	else {
-		compile 'de.esoco:esoco-gwt:1.1.1'
+		compile 'de.esoco:esoco-gwt:1.2.+'
 	}
 
     testCompile 'junit:junit:4.+'
