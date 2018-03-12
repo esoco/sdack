@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-	if (project(':esoco-gwt').getProjectDir().exists()) {
+	if (project(':esoco-gwt').getProjectDir().list().length > 0) {
 		compile project(':esoco-gwt')
 	}
 	else {
