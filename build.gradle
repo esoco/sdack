@@ -15,10 +15,10 @@ dependencies {
 		compile project(':esoco-gwt')
 	}
 	else {
-		compile 'de.esoco:esoco-gwt:1.3.+'
+		compile 'de.esoco:esoco-gwt:1.4.+'
 	}
 
-    testCompile 'junit:junit:4.+'
+    testCompile 'junit:junit:4.12'
 }
 
 task fullJar(type: Jar) {
